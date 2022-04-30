@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F791CE7E281D862F009E2142 /* Lesson5.swift in Sources */ = {isa = PBXBuildFile; fileRef = F791CE7D281D862F009E2142 /* Lesson5.swift */; };
+		F7A90FAE281D99480025E82B /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A90FAD281D99480025E82B /* ExpenseItem.swift */; };
+		F7A90FB0281D9A650025E82B /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A90FAF281D9A650025E82B /* Expenses.swift */; };
+		F7A90FB5281DA5E40025E82B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A90FB4281DA5E40025E82B /* AddView.swift */; };
 		F7FD7465281D1C2100A948E9 /* iExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7464281D1C2100A948E9 /* iExpenseApp.swift */; };
 		F7FD7467281D1C2100A948E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7466281D1C2100A948E9 /* ContentView.swift */; };
 		F7FD7469281D1C2700A948E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FD7468281D1C2700A948E9 /* Assets.xcassets */; };
 		F7FD746C281D1C2700A948E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7FD746B281D1C2700A948E9 /* Preview Assets.xcassets */; };
+		F7FD7474281D1C4E00A948E9 /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7473281D1C4E00A948E9 /* Lesson1.swift */; };
+		F7FD7476281D254C00A948E9 /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7475281D254C00A948E9 /* Lesson2.swift */; };
+		F7FD7478281D34C800A948E9 /* Lesson3.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7477281D34C800A948E9 /* Lesson3.swift */; };
+		F7FD747A281D635F00A948E9 /* Lesson4.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FD7479281D635F00A948E9 /* Lesson4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F791CE7D281D862F009E2142 /* Lesson5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5.swift; sourceTree = "<group>"; };
+		F7A90FAD281D99480025E82B /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		F7A90FAF281D9A650025E82B /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		F7A90FB4281DA5E40025E82B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		F7FD7461281D1C2100A948E9 /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7FD7464281D1C2100A948E9 /* iExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iExpenseApp.swift; sourceTree = "<group>"; };
 		F7FD7466281D1C2100A948E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7FD7468281D1C2700A948E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7FD746B281D1C2700A948E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7FD7473281D1C4E00A948E9 /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
+		F7FD7475281D254C00A948E9 /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
+		F7FD7477281D34C800A948E9 /* Lesson3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson3.swift; sourceTree = "<group>"; };
+		F7FD7479281D635F00A948E9 /* Lesson4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F7A90FB1281DA5760025E82B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD7466281D1C2100A948E9 /* ContentView.swift */,
+				F7A90FB4281DA5E40025E82B /* AddView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7A90FB2281DA58A0025E82B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7A90FAD281D99480025E82B /* ExpenseItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7A90FB3281DA5A90025E82B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7A90FAF281D9A650025E82B /* Expenses.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F7FD7458281D1C2100A948E9 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +93,10 @@
 			isa = PBXGroup;
 			children = (
 				F7FD7464281D1C2100A948E9 /* iExpenseApp.swift */,
-				F7FD7466281D1C2100A948E9 /* ContentView.swift */,
+				F7A90FB2281DA58A0025E82B /* Model */,
+				F7A90FB3281DA5A90025E82B /* ViewModel */,
+				F7A90FB1281DA5760025E82B /* Views */,
+				F7FD7472281D1C3000A948E9 /* Lessons */,
 				F7FD7468281D1C2700A948E9 /* Assets.xcassets */,
 				F7FD746A281D1C2700A948E9 /* Preview Content */,
 			);
@@ -65,6 +109,18 @@
 				F7FD746B281D1C2700A948E9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F7FD7472281D1C3000A948E9 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				F7FD7473281D1C4E00A948E9 /* Lesson1.swift */,
+				F7FD7475281D254C00A948E9 /* Lesson2.swift */,
+				F7FD7477281D34C800A948E9 /* Lesson3.swift */,
+				F7FD7479281D635F00A948E9 /* Lesson4.swift */,
+				F791CE7D281D862F009E2142 /* Lesson5.swift */,
+			);
+			path = Lessons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +193,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FD747A281D635F00A948E9 /* Lesson4.swift in Sources */,
+				F7FD7474281D1C4E00A948E9 /* Lesson1.swift in Sources */,
+				F7A90FB5281DA5E40025E82B /* AddView.swift in Sources */,
+				F7FD7478281D34C800A948E9 /* Lesson3.swift in Sources */,
+				F7A90FAE281D99480025E82B /* ExpenseItem.swift in Sources */,
+				F791CE7E281D862F009E2142 /* Lesson5.swift in Sources */,
 				F7FD7467281D1C2100A948E9 /* ContentView.swift in Sources */,
+				F7A90FB0281D9A650025E82B /* Expenses.swift in Sources */,
+				F7FD7476281D254C00A948E9 /* Lesson2.swift in Sources */,
 				F7FD7465281D1C2100A948E9 /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

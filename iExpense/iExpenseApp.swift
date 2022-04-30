@@ -12,6 +12,12 @@ struct iExpenseApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+          //  Lesson1()
+           // Lesson2()
+          //  Lesson3()
+           // Lesson4()
+         //   Lesson5()
+            
         }
     }
 }
